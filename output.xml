@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.2 on win32)" generated="20220318 12:25:04.368" rpa="false" schemaversion="2">
+<suite id="s1" name="For" source="C:\Users\elucia\Documents\testeGit\testeSIS-Git\for.robot">
+<test id="s1-t1" name="cenario args">
+<kw name="for args">
+<arg>15</arg>
+<for flavor="IN RANGE">
+<var>${cont}</var>
+<value>0</value>
+<value>${max}</value>
+<iter>
+<var name="${cont}">0</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.396" endtime="20220318 12:25:04.397"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.396" endtime="20220318 12:25:04.397"/>
+</iter>
+<iter>
+<var name="${cont}">1</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.397" endtime="20220318 12:25:04.397"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.397" endtime="20220318 12:25:04.397"/>
+</iter>
+<iter>
+<var name="${cont}">2</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.398" endtime="20220318 12:25:04.398"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.398" endtime="20220318 12:25:04.398"/>
+</iter>
+<iter>
+<var name="${cont}">3</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.398" endtime="20220318 12:25:04.399"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.398" endtime="20220318 12:25:04.399"/>
+</iter>
+<iter>
+<var name="${cont}">4</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.399" endtime="20220318 12:25:04.399"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.399" endtime="20220318 12:25:04.399"/>
+</iter>
+<iter>
+<var name="${cont}">5</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.400" endtime="20220318 12:25:04.400"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.399" endtime="20220318 12:25:04.400"/>
+</iter>
+<iter>
+<var name="${cont}">6</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.400" endtime="20220318 12:25:04.401"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.400" endtime="20220318 12:25:04.401"/>
+</iter>
+<iter>
+<var name="${cont}">7</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.401" endtime="20220318 12:25:04.402"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.401" endtime="20220318 12:25:04.402"/>
+</iter>
+<iter>
+<var name="${cont}">8</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.402" endtime="20220318 12:25:04.402"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.402" endtime="20220318 12:25:04.402"/>
+</iter>
+<iter>
+<var name="${cont}">9</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.403" endtime="20220318 12:25:04.403"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.403" endtime="20220318 12:25:04.403"/>
+</iter>
+<iter>
+<var name="${cont}">10</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.403" endtime="20220318 12:25:04.404"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.403" endtime="20220318 12:25:04.404"/>
+</iter>
+<iter>
+<var name="${cont}">11</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.404" endtime="20220318 12:25:04.405"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.404" endtime="20220318 12:25:04.405"/>
+</iter>
+<iter>
+<var name="${cont}">12</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.405" endtime="20220318 12:25:04.405"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.405" endtime="20220318 12:25:04.405"/>
+</iter>
+<iter>
+<var name="${cont}">13</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.406" endtime="20220318 12:25:04.406"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.405" endtime="20220318 12:25:04.406"/>
+</iter>
+<iter>
+<var name="${cont}">14</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${cont}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220318 12:25:04.406" endtime="20220318 12:25:04.407"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.406" endtime="20220318 12:25:04.407"/>
+</iter>
+<status status="PASS" starttime="20220318 12:25:04.396" endtime="20220318 12:25:04.407"/>
+</for>
+<status status="PASS" starttime="20220318 12:25:04.396" endtime="20220318 12:25:04.407"/>
+</kw>
+<status status="PASS" starttime="20220318 12:25:04.395" endtime="20220318 12:25:04.407"/>
+</test>
+<status status="PASS" starttime="20220318 12:25:04.370" endtime="20220318 12:25:04.408"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="For">For</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220318 12:25:04.392" level="ERROR">Error in file 'C:\Users\elucia\Documents\testeGit\testeSIS-Git\for.robot' on line 2: Importing library 'DebugLibrary' failed: ModuleNotFoundError: No module named 'DebugLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\elucia\AppData\Local\Programs\Python\Python310\Scripts\robot.exe
+  C:\Users\elucia\AppData\Local\Programs\Python\Python310\python310.zip
+  C:\Users\elucia\AppData\Local\Programs\Python\Python310\DLLs
+  C:\Users\elucia\AppData\Local\Programs\Python\Python310\lib
+  C:\Users\elucia\AppData\Local\Programs\Python\Python310
+  C:\Users\elucia\AppData\Local\Programs\Python\Python310\lib\site-packages</msg>
+</errors>
+</robot>
